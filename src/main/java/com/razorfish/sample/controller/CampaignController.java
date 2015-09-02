@@ -10,20 +10,19 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.razorfish.sample.model.Actor;
-import com.razorfish.sample.service.ActorService;
+import com.razorfish.sample.model.Campaign;
+import com.razorfish.sample.service.CampaignService;
 
 @Controller
-public class ActorController {
-	Logger log = LogManager.getLogger(ActorController.class);
-	
+public class CampaignController {
+	Logger log = LogManager.getLogger(CampaignController.class);
+
 	@Autowired
-	ActorService actorService;
-	
-	@RequestMapping(value="actorList.go", method=RequestMethod.GET)
-	public @ResponseBody List<Actor> listActors() {
-		log.info("Inside Actor Controller: fetching listActors()");
-		actorService.getActors();
-		return actorService.getActors();
+	CampaignService campaignService;
+
+	@RequestMapping(value="campaignList.go", method=RequestMethod.GET)
+	public @ResponseBody List<Campaign> listCampaigns() {
+		log.info("Inside Campaign Controller: fetching listCampaigns()");
+		return campaignService.getCampaigns();
 	}
 }

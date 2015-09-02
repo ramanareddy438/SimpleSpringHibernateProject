@@ -16,7 +16,7 @@
 		<jackson-version>2.6.1</jackson-version>
 		<log4j-version>2.3</log4j-version>
 		<c3p0-version>0.9.2</c3p0-version>
-		<postgresql.connector-version>9.4-1201-jdbc41</postgresql.connector-version>
+		<postgresql.connector-version>9.1-901.jdbc4</postgresql.connector-version>
 	</properties>
 	<build>
 		<finalName>SimpleSpringHibernate</finalName>
@@ -119,9 +119,9 @@
 			<version>${jackson-version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.logging.log4j</groupId>
-			<artifactId>log4j-core</artifactId>
-			<version>${log4j-version}</version>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -150,10 +150,15 @@
 			<version>2.1</version>
 		</dependency>
 
-		<dependency>
-			<groupId>org.postgresql</groupId>
+		<!-- <dependency>
+			<groupId>postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<version>${postgresql.connector-version}</version>
+		</dependency> -->
+		<dependency>
+			<groupId>com.razorfish.aws</groupId>
+			<artifactId>RedshiftJDBC</artifactId>
+			<version>1.1.7.1007</version>
 		</dependency>
 	</dependencies>
 </project>
