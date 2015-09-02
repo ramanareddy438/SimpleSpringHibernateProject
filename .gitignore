@@ -1,0 +1,14 @@
+target/classes/com/razorfish/sample/controller/CategoryController.class
+target/classes/application.properties
+*.class
+target/SimpleSpringHibernate/index.jsp
+*.jar
+target/SimpleSpringHibernate.war
+target/SimpleSpringHibernate/WEB-INF/web.xml
+target/SimpleSpringHibernate/WEB-INF/spring/root-context.xml
+target/SimpleSpringHibernate/jsp/index.jsp
+target/SimpleSpringHibernate/jsp/home.jsp
+*.lst
+target/maven-archiver/pom.properties
+target/SimpleSpringHibernate/index.html
+target/classes/log4j.properties
