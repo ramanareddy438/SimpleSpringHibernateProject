@@ -2,3 +2,5 @@
 Simple Spring 4 and Hibernate 5 prject.
 
 Project implemented using Spring 4 and Hibernate 5 frameworks with Jackson Mapper for JSON data.
+
+Added data source connection for Amazon Redshift Dataware house
