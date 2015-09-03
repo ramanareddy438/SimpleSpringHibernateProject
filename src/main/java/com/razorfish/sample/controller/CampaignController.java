@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.razorfish.sample.model.Campaign;
+import com.razorfish.sample.dto.Campaign;
 import com.razorfish.sample.service.CampaignService;
 
 @Controller

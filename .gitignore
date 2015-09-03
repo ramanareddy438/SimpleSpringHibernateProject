@@ -12,3 +12,6 @@ target/SimpleSpringHibernate/jsp/home.jsp
 target/maven-archiver/pom.properties
 target/SimpleSpringHibernate/index.html
 target/classes/log4j.properties
+target/m2e-wtp/web-resources/META-INF/maven/SimpleSpringHibernateProject/SimpleSpringHibernateProject/pom.xml
+target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+target/m2e-wtp/web-resources/META-INF/maven/SimpleSpringHibernateProject/SimpleSpringHibernateProject/pom.properties

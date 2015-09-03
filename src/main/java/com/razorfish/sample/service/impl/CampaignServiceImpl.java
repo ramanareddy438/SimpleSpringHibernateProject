@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.razorfish.sample.dao.CampaignDAO;
-import com.razorfish.sample.model.Campaign;
-import com.razorfish.sample.model.Category;
+import com.razorfish.sample.dto.Campaign;
+import com.razorfish.sample.dto.Category;
 import com.razorfish.sample.service.CampaignService;
 
 @Service

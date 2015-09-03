@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.razorfish.sample.model.Actor;
+import com.razorfish.sample.dto.Actor;
 import com.razorfish.sample.service.ActorService;
 
 @Controller

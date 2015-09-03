@@ -1,4 +1,4 @@
-package com.razorfish.sample.model;
+package com.razorfish.sample.dto;
 
 import java.io.Serializable;
 import java.util.Date;

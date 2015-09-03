@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.razorfish.sample.dao.ActorDAO;
-import com.razorfish.sample.model.Actor;
+import com.razorfish.sample.dto.Actor;
 
 @Repository
 public class ActorDAOHibernate implements ActorDAO {

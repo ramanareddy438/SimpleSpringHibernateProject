@@ -7,11 +7,11 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.razorfish.sample.dao.ActorDAO;
-import com.razorfish.sample.model.Actor;
+import com.razorfish.sample.dto.Actor;
 import com.razorfish.sample.service.ActorService;
 
 @Service
-public class ActiorServiceImpl implements ActorService {
+public class ActorServiceImpl implements ActorService {
 
 	@Autowired
 	ActorDAO actorDAO;

@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.razorfish.sample.model.Category;
+import com.razorfish.sample.dto.Category;
 import com.razorfish.sample.service.CampaignService;
 
 @RestController
