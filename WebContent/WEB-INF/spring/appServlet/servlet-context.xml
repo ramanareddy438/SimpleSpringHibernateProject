@@ -31,15 +31,15 @@
 	<!-- Hibernate DataSource configuration -->
 	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
 		destroy-method="close">
-		<property name="driverClass" value="com.amazon.redshift.jdbc4.Driver" />
+		<!-- <property name="driverClass" value="com.amazon.redshift.jdbc4.Driver" />
 		<property name="jdbcUrl" value="jdbc:redshift://mycluster.ctyir1luoqct.us-west-2.redshift.amazonaws.com:5439/mydb" />
 		<property name="user" value="sivakumar" />
-		<property name="password" value="Sivakumar511" />
+		<property name="password" value="Sivakumar511" /> -->
 		
-		<!-- <property name="driverClass" value="com.mysql.jdbc.Driver" />
+		<property name="driverClass" value="com.mysql.jdbc.Driver" />
 		<property name="jdbcUrl" value="jdbc:mysql://localhost:3309/sakila" />
 		<property name="user" value="root" />
-		<property name="password" value="neevtech" /> -->
+		<property name="password" value="neevtech" />
 		
 		<property name="acquireIncrement" value="${hibernate.c3p0.acquire_increment}" />
 		<property name="minPoolSize" value="${hibernate.c3p0.min_size}" />
@@ -52,7 +52,7 @@
         <property name="dataSource" ref="dataSource"></property>
         <property name="hibernateProperties">
             <props>
-                <prop key="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</prop>
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
             </props>
         </property>
         <property name="packagesToScan" value="com.razorfish.sample.dto"></property>
