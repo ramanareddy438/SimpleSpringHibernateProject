@@ -193,5 +193,6 @@
 			<artifactId>commons-lang3</artifactId>
 			<version>3.4</version>
 		</dependency>
+		<!-- This is new line comment -->
 	</dependencies>
 </project>
