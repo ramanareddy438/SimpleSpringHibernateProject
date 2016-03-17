@@ -194,5 +194,6 @@
 			<version>3.4</version>
 		</dependency>
 		<!-- this is a new line comment -->
+		<!-- This is new line comment -->
 	</dependencies>
 </project>
